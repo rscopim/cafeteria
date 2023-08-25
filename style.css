@@ -10,7 +10,7 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-.sabor {
+.sabor, .sobremesa {
     text-align: left;
     width: 75%;
 }
