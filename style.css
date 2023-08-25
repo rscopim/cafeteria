@@ -2,6 +2,7 @@ h1, h2, p {
     text-align: center;
   }
 body {
+    font-family: sans-serif;
     background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
 }
 .menu {
@@ -9,6 +10,8 @@ body {
     background-color: burlywood;
     margin-left: auto;
     margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
 }
 .sabor, .sobremesa {
     text-align: left;
@@ -20,4 +23,21 @@ body {
 }
 .item p {
     display: inline-block;
+}
+h1, h2 {
+    font-family: Impact, serif;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 30px;
+}
+.established {
+    font-style: italic;
+}
+hr {
+    height: 3px;
+    background-color: brown;
+    border-color: brown;
 }
